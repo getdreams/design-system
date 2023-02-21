@@ -422,6 +422,11 @@
           "type": "color"
         }
       }
+    },
+    "x": {
+      "value": "x",
+      "type": "borderRadius",
+      "description": "x"
     }
   },
   "alias": {
