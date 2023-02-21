@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       - name: Run token-transformer for core tokens
         run: npx token-transformer raw-tokens/figma-tokens-output.json raw-tokens/sd-input.json core --resolveReferences true
