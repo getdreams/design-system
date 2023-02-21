@@ -104,3 +104,4 @@ export const ColorOrange600 = "#d75436";
 export const ColorOrange700 = "#b24830";
 export const ColorOrange800 = "#9c4531";
 export const ColorOrange900 = "#7d3025";
+export const X = "x";
