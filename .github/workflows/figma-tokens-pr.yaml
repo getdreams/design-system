@@ -1,0 +1,33 @@
+name: Process Figma Tokens PR
+
+on: pull_request
+
+jobs:
+  run_if: # only if base branch is "figma-tokens"
+    if: ${{ github.head_ref == 'figma-tokens' }}
+    name: Process Figma Tokens
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # checkout to the head of this PR
+      - uses: actions/checkout@master
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run token-transformer for core tokens
+        run: npx token-transformer raw-tokens/figma-tokens-output.json raw-tokens/sd-input.json core --resolveReferences true
+
+      - name: Run style-dictionary for core tokens
+        run: npx style-dictionary build --config sd.config.cjs
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Devon Neill
+          author_email: devneill@hey.com
+          message: 'auto-generate style-dictionary output from latest figma tokens'
+          add: '.'
