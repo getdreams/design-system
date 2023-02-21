@@ -29,5 +29,5 @@ jobs:
         with:
           author_name: Devon Neill
           author_email: devneill@hey.com
-          message: 'auto-generate style-dictionary output from latest figma tokens'
+          message: '[Automatic] Generate code-ready tokens from latest figma changes'
           add: '.'
