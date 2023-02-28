@@ -1,7 +1,7 @@
 import { color } from '~/colors';
 import { spacing } from '~/spacing';
 
-export const theme = {
+module.exports = {
   spacing: { ...spacing },
   colors: { ...color },
 };
