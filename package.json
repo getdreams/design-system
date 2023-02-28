@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "require": "./index.cjs.ts",
-    "import": "./index.ts"
+    "import": "./index.ts",
+    "require": "./index.cjs.ts"
   },
   "homepage": "{{ homepage }}",
   "scripts": {
