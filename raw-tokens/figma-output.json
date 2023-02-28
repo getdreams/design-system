@@ -1,25 +1,4 @@
 {
-  "global": {
-    "ds": {
-      "app": {
-        "border-radius": {
-          "standard": {
-            "value": "16",
-            "type": "borderRadius"
-          }
-        }
-      }
-    },
-    "Body Large": {
-      "value": {
-        "fontFamily": "Lab Grotesque Dreams",
-        "fontWeight": "400",
-        "fontSize": "20",
-        "lineHeight": "24"
-      },
-      "type": "typography"
-    }
-  },
   "core": {
     "spacing": {
       "1": {
@@ -658,7 +637,6 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
       "core",
       "alias",
       "component"
