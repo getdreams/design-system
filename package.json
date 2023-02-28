@@ -4,6 +4,10 @@
   "description": "",
   "license": "MIT",
   "type": "module",
+  "exports": {
+    "import": "./index.ts",
+    "require": "./index.cjs.ts"
+  },
   "homepage": "{{ homepage }}",
   "scripts": {
     "serve": "npx backlight@latest serve f6gs4A2t6RJo0ANE9TFE --open"
