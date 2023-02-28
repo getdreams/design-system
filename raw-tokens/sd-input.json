@@ -436,5 +436,91 @@
         "type": "color"
       }
     }
+  },
+  "Lab Grotesque Dreams": {
+    "value": "Lab Grotesque Dreams",
+    "type": "fontFamilies"
+  },
+  "font-size": {
+    "sm": {
+      "value": 14,
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": 20,
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": 24,
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": 32,
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": 40,
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": 48,
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": 56,
+      "type": "fontSizes"
+    }
+  },
+  "regular": {
+    "value": 400,
+    "type": "fontWeights"
+  },
+  "medium": {
+    "value": 500,
+    "type": "fontWeights"
+  },
+  "letter-spacing": {
+    "none": {
+      "value": 0,
+      "type": "letterSpacing"
+    }
+  },
+  "line-height": {
+    "sm": {
+      "value": 20,
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": 24,
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": 28,
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": 32,
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": 36,
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": 42,
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": 50,
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": 56,
+      "type": "lineHeights"
+    }
   }
 }
