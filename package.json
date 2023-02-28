@@ -4,13 +4,6 @@
   "description": "",
   "license": "MIT",
   "type": "module",
-  "exports": {
-    "./*": "./*/index.js",
-    "./theme": {
-      "import": "./theme/index.js",
-      "require": "./theme/index.cjs.js"
-    }
-  },
   "homepage": "{{ homepage }}",
   "scripts": {
     "serve": "npx backlight@latest serve f6gs4A2t6RJo0ANE9TFE --open"
