@@ -8,7 +8,7 @@
     "./*": "./*/index.js",
     "./theme": {
       "import": "./theme/index.js",
-      "require": "./theme/index.cjs.js"
+      "require": "./theme/index.cjs"
     }
   },
   "homepage": "{{ homepage }}",
