@@ -1,4 +1,25 @@
 {
+  "global": {
+    "ds": {
+      "app": {
+        "border-radius": {
+          "standard": {
+            "value": "16",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
+    "Body Large": {
+      "value": {
+        "fontFamily": "Lab Grotesque Dreams",
+        "fontWeight": "400",
+        "fontSize": "20",
+        "lineHeight": "24"
+      },
+      "type": "typography"
+    }
+  },
   "core": {
     "spacing": {
       "1": {
@@ -422,6 +443,92 @@
           "type": "color"
         }
       }
+    },
+    "Lab Grotesque Dreams": {
+      "value": "Lab Grotesque Dreams",
+      "type": "fontFamilies"
+    },
+    "font-size": {
+      "sm": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "40",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "48",
+        "type": "fontSizes"
+      },
+      "5xl": {
+        "value": "56",
+        "type": "fontSizes"
+      }
+    },
+    "regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "letter-spacing": {
+      "none": {
+        "value": "0",
+        "type": "letterSpacing"
+      }
+    },
+    "line-height": {
+      "sm": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "2xl": {
+        "value": "36",
+        "type": "lineHeights"
+      },
+      "3xl": {
+        "value": "42",
+        "type": "lineHeights"
+      },
+      "4xl": {
+        "value": "50",
+        "type": "lineHeights"
+      },
+      "5xl": {
+        "value": "56",
+        "type": "lineHeights"
+      }
     }
   },
   "alias": {
@@ -449,6 +556,18 @@
           "value": "{color.red.500}",
           "type": "color"
         }
+      }
+    },
+    "typography": {
+      "lg": {
+        "value": {
+          "fontFamily": "{Lab Grotesque Dreams}",
+          "fontWeight": "{medium}",
+          "lineHeight": "{line-height.md}",
+          "fontSize": "{font-size.lg}",
+          "letterSpacing": "{letter-spacing.none}"
+        },
+        "type": "typography"
       }
     }
   },
@@ -491,11 +610,11 @@
           "medium": {
             "padding": {
               "vertical": {
-                "value": "{spacing.3}",
+                "value": "{spacing.4}",
                 "type": "spacing"
               },
               "horizontal": {
-                "value": "{spacing.6}",
+                "value": "{spacing.7}",
                 "type": "spacing"
               }
             }
@@ -539,6 +658,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
+      "global",
       "core",
       "alias",
       "component"
