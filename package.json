@@ -7,8 +7,8 @@
   "exports": {
     ".": "./index.ts",
     "./theme": {
-      "import": "./index.ts",
-      "require": "./index.cjs.ts"
+      "import": "./theme/index.ts",
+      "require": "./theme/index.cjs.ts"
     }
   },
   "homepage": "{{ homepage }}",
