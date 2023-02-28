@@ -1,7 +1,19 @@
-import { color } from '~/colors';
+import { typography } from '~/typography';
+import { border } from '~/border';
+import { opacity } from '~/opacity';
+import { shadows } from '~/shadows';
+import { color as colors } from '~/colors';
 import { spacing } from '~/spacing';
+import { zIndex } from '~/z-index';
 
 export const theme = {
-  spacing: { ...spacing },
-  colors: { ...color },
+  ...colors,
+  ...spacing,
+  extend: {
+    ...typography,
+    ...border,
+    ...opacity,
+    ...shadows,
+    ...zIndex,
+  },
 };
