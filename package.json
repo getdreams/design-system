@@ -5,8 +5,11 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "import": "./index.ts",
-    "require": "./index.cjs.ts"
+    ".": "./index.ts",
+    "./theme": {
+      "import": "./index.ts",
+      "require": "./index.cjs.ts"
+    }
   },
   "homepage": "{{ homepage }}",
   "scripts": {
