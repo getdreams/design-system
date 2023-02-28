@@ -5,10 +5,10 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": "./index.ts",
+    "./*": "./*/index.js",
     "./theme": {
-      "import": "./theme/index.ts",
-      "require": "./theme/index.cjs.ts"
+      "import": "./theme/index.js",
+      "require": "./theme/index.cjs.js"
     }
   },
   "homepage": "{{ homepage }}",
