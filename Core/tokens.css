@@ -105,4 +105,24 @@
   --color-orange-700: #b24830;
   --color-orange-800: #9c4531;
   --color-orange-900: #7d3025;
+  --lab-grotesque-dreams: Lab Grotesque Dreams;
+  --font-size-sm: 14;
+  --font-size-md: 16;
+  --font-size-lg: 20;
+  --font-size-xl: 24;
+  --font-size-2xl: 32;
+  --font-size-3xl: 40;
+  --font-size-4xl: 48;
+  --font-size-5xl: 56;
+  --regular: 400;
+  --medium: 500;
+  --letter-spacing-none: 0;
+  --line-height-sm: 20;
+  --line-height-md: 24;
+  --line-height-lg: 28;
+  --line-height-xl: 32;
+  --line-height-2xl: 36;
+  --line-height-3xl: 42;
+  --line-height-4xl: 50;
+  --line-height-5xl: 56;
 }
