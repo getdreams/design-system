@@ -7,8 +7,8 @@ import { spacing } from '~/spacing';
 import { zIndex } from '~/z-index';
 
 export const theme = {
-  ...colors,
-  ...spacing,
+  colors: { ...colors },
+  spacing: { ...spacing },
   extend: {
     ...typography,
     ...border,
