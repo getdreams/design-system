@@ -1,6 +1,6 @@
 {
   "packages": {
-    "dir": "",
+    "dir": "@(tokens|components)",
     "menu": [
       "introduction",
       [
@@ -12,8 +12,7 @@
           "opacity",
           "shadows",
           "spacing",
-          "z-index",
-          "theme"
+          "z-index"
         ]
       ],
       [
@@ -29,12 +28,7 @@
           "tabs"
         ]
       ],
-      [
-        "dockit",
-        [
-          "mdx-layout"
-        ]
-      ]
+      ["dockit", ["mdx-layout"]]
     ]
   }
 }

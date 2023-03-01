@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MDXProvider } from '@mdx-js/react';
 import { CoreLayout } from '@divriots/dockit-react/mdx-layout-core/dist/CoreLayout';
-import { Switch } from '~/switch';
+import { Switch } from '~/components/switch';
 import { SunIcon, MoonIcon } from '@heroicons/react/solid';
 import './styles.css';
 
@@ -24,7 +24,7 @@ const ColorModeSwitch = () => {
     <div className="self-center flex items-center ml-4 ">
       <SunIcon className="w-4 h-4 mr-1" />
       <Switch
-        size="18"
+        size={18}
         state={localStorage['tailwindcss-theme'] === 'dark'}
         onSwitched={(state) => {
           localStorage['tailwindcss-theme'] = state ? 'dark' : 'light';

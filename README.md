@@ -42,7 +42,7 @@ export const typography = {
 };
 ```
 
-Then all tokens definitions are merged in the `~/theme/` component to build the global Tailwind CSS `theme` definition. This `theme.extend` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
+Then all tokens definitions are merged in the `~/tokens/theme/` component to build the global Tailwind CSS `theme` definition. This `theme.extend` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
 
 ## Components
 
