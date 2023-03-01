@@ -18,6 +18,7 @@
       [
         "Components",
         [
+          "text",
           "menu",
           "listbox",
           "switch",

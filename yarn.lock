@@ -118,10 +118,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@divriots/dockit-react@^0.0.79":
-  version "0.0.79"
-  resolved "https://registry.npmjs.org/@divriots/dockit-react/-/dockit-react-0.0.79.tgz"
-  integrity sha512-6LIHihMrtyKjIIPTju3/+e0nGAmoDbADYuGWBkao8fXeGC3oDoziW8qoiREBnOhmBrvKsSL7c3EY+n14ca3DKQ==
+"@divriots/dockit-react@<0.1.0":
+  version "0.0.85"
+  resolved "https://registry.yarnpkg.com/@divriots/dockit-react/-/dockit-react-0.0.85.tgz#fc87ca35fb5d64a3177af24844ee287625772ce4"
+  integrity sha512-sU1y17E0Lg8HRET4GZuedTMETaskkK76rSp0KHs0Nq+RM37l6s9YCWcA3yciuYV98fTKzKXPPH+6Mr6YfWCzfg==
   dependencies:
     "@mdx-js/react" "^1.6.22"
     copy-to-clipboard "^3.3.1"
@@ -516,6 +516,11 @@ chokidar@^3.5.2:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+classnames@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 client-only@^0.0.1:
   version "0.0.1"
