@@ -1,0 +1,25 @@
+name: CI
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+jobs:
+  build:
+    name: 'Test & Lint'
+    runs-on: ubuntu-latest
+    env:
+      TESTING: 1
+      CI: true
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install
+      - name: Run Jest tests
+        run: yarn test:ci
