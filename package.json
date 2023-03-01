@@ -8,7 +8,8 @@
   "scripts": {
     "serve": "npx backlight@latest serve f6gs4A2t6RJo0ANE9TFE --open",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "coverage": "jest --collectCoverage --"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",
