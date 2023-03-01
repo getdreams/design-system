@@ -1,10 +1,10 @@
 {
   "packages": {
-    "dir": "@(tokens|components)",
+    "dir": "@(tokens|components|docs)/",
     "menu": [
-      "introduction",
+      ["Docs", ["introduction"]],
       [
-        "tokens",
+        "Tokens",
         [
           "typography",
           "colors",
@@ -16,7 +16,7 @@
         ]
       ],
       [
-        "components",
+        "Components",
         [
           "menu",
           "listbox",

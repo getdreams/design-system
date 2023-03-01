@@ -3,7 +3,7 @@
 
 # Tailwind CSS Tech Sample <br/><small>_by_ ‹div›RIOTS</small>
 
-This is a _Technology Sample_ you can rely on to build your own Design System, based on React and [Tailwind CSS](https://tailwindcss.com/).
+This is a _HIIIIII_ you can rely on to build your own Design System, based on React and [Tailwind CSS](https://tailwindcss.com/).
 
 **Disclaimer**: _Technology Samples_ aren't comprehensive _Design Systems_ but showcases a given technology so you free to build you own solution upon it.
 
@@ -42,7 +42,7 @@ export const typography = {
 };
 ```
 
-Then all tokens definitions are merged in the `~/tokens/theme/` component to build the global Tailwind CSS `theme` definition. This `theme.extend` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
+Then all tokens definitions are merged in the `~/utils/theme/` component to build the global Tailwind CSS `theme` definition. This `theme.extend` is used in the `tailwind.config.js` file directly to setup all the classes and variants.
 
 ## Components
 

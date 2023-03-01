@@ -1,5 +1,5 @@
 import typography from '@tailwindcss/typography';
-import { theme } from '~/tokens/theme';
+import { theme } from '~/utils/theme';
 
 const config = {
   darkMode: 'class',
