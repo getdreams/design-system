@@ -723,6 +723,11 @@
         },
         "type": "typography"
       }
+    },
+    "x": {
+      "value": "x",
+      "type": "sizing",
+      "description": "x"
     }
   },
   "component": {

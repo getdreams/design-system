@@ -3,7 +3,7 @@ name: Create Figma Tokens PR
 on:
   push:
     branches:
-      - figma-tokens
+      - 'figma-tokens'
 
 jobs:
   pull-request:
