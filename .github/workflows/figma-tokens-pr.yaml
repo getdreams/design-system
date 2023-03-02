@@ -1,6 +1,9 @@
 name: Process Figma Tokens PR
 
-on: push
+on:
+  push:
+    branches:
+      - 'figma-tokens'
 
 jobs:
   run_if: # only if base branch is "figma-tokens"
