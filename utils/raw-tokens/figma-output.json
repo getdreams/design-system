@@ -632,102 +632,97 @@
       }
     },
     "typography": {
-      "text-xs": {
+      "xs": {
         "value": {
           "lineHeight": "{lineHeight.4}",
           "fontSize": "{font-size.xs}"
         },
         "type": "typography"
       },
-      "text-sm": {
+      "sm": {
         "value": {
           "lineHeight": "{lineHeight.5}",
           "fontSize": "{font-size.sm}"
         },
         "type": "typography"
       },
-      "text-base": {
+      "base": {
         "value": {
           "lineHeight": "{lineHeight.6}",
           "fontSize": "{font-size.base}"
         },
         "type": "typography"
       },
-      "text-lg": {
+      "lg": {
         "value": {
           "lineHeight": "{lineHeight.7}",
           "fontSize": "{font-size.lg}"
         },
         "type": "typography"
       },
-      "text-xl": {
+      "xl": {
         "value": {
           "lineHeight": "{lineHeight.7}",
           "fontSize": "{font-size.xl}"
         },
         "type": "typography"
       },
-      "text-2xl": {
+      "2xl": {
         "value": {
           "lineHeight": "{lineHeight.8}",
           "fontSize": "{font-size.2xl}"
         },
         "type": "typography"
       },
-      "text-3xl": {
+      "3xl": {
         "value": {
           "lineHeight": "{lineHeight.9}",
           "fontSize": "{font-size.3xl}"
         },
         "type": "typography"
       },
-      "text-4xl": {
+      "4xl": {
         "value": {
           "lineHeight": "{lineHeight.10}",
           "fontSize": "{font-size.4xl}"
         },
         "type": "typography"
       },
-      "text-5xl": {
+      "5xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.5xl}"
         },
         "type": "typography"
       },
-      "text-6xl": {
+      "6xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.6xl}"
         },
         "type": "typography"
       },
-      "text-7xl": {
+      "7xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.7xl}"
         },
         "type": "typography"
       },
-      "text-8xl": {
+      "8xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.8xl}"
         },
         "type": "typography"
       },
-      "text-9xl": {
+      "9xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.9xl}"
         },
         "type": "typography"
       }
-    },
-    "x": {
-      "value": "x",
-      "type": "sizing",
-      "description": "x"
     }
   },
   "component": {
