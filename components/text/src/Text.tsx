@@ -10,16 +10,19 @@ export type TextProps = {
   Size of the text
   */
   size?:
-    | 'tiny'
-    | 'small'
-    | 'standard'
-    | 'medium'
-    | 'h1'
-    | 'h2'
-    | 'h3'
-    | 'h4'
-    | 'h5'
-    | 'h6';
+    | 'xs'
+    | 'sm'
+    | 'base'
+    | 'lg'
+    | 'xl'
+    | '2xl'
+    | '3xl'
+    | '4xl'
+    | '5xl'
+    | '6xl'
+    | '7xl'
+    | '8xl'
+    | '9xl';
   /**
   Weight of the text
   */
@@ -56,7 +59,7 @@ A simple Text component
 */
 export function Text({
   as = 'p',
-  size = 'standard',
+  size = 'base',
   weight = 'normal',
   color = 'black',
   darkColor = 'white',
