@@ -690,35 +690,35 @@
       },
       "text-5xl": {
         "value": {
-          "lineHeight": "{lineHeight.4}",
+          "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.5xl}"
         },
         "type": "typography"
       },
       "text-6xl": {
         "value": {
-          "lineHeight": "{lineHeight.4}",
+          "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.6xl}"
         },
         "type": "typography"
       },
       "text-7xl": {
         "value": {
-          "lineHeight": "{lineHeight.4}",
+          "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.7xl}"
         },
         "type": "typography"
       },
       "text-8xl": {
         "value": {
-          "lineHeight": "{lineHeight.4}",
+          "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.8xl}"
         },
         "type": "typography"
       },
       "text-9xl": {
         "value": {
-          "lineHeight": "{lineHeight.4}",
+          "lineHeight": "{lineHeight.none}",
           "fontSize": "{font-size.9xl}"
         },
         "type": "typography"
