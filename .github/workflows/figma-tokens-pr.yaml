@@ -21,8 +21,8 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Run token-transformer for core tokens
-        run: npx token-transformer raw-tokens/figma-output.json raw-tokens/sd-input.json core --resolveReferences true --expandShadow true
+      - name: Run token-transformer for tokens
+        run: npx token-transformer utils/raw-tokens/figma-output.json utils/raw-tokens/sd-input.json --resolveReferences true --expandShadow true
 
       - name: Run style-dictionary for core tokens
         run: npx style-dictionary build --config sd.config.cjs
