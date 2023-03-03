@@ -1,4 +1,4 @@
-import { typography, fontWeight } from '~/tokens/typography';
+import { typography } from '~/tokens/typography';
 import { border } from '~/tokens/border';
 import { opacity } from '~/tokens/opacity';
 import { shadows } from '~/tokens/shadows';
@@ -18,10 +18,9 @@ const getFontSize = () => {
 };
 
 export const theme = {
-  colors: { ...colors },
-  spacing: { ...spacing },
-  fontSize: getFontSize(),
-  fontWeight: { ...fontWeight },
+  colors,
+  spacing,
+  ...typography,
   extend: {
     ...border,
     ...opacity,
