@@ -18,7 +18,3 @@ export const boldText = () => <Text weight="bold">Hello, I'm some text</Text>;
 export const blue500Text = () => (
   <Text color="blue-500">Hello, I'm some text</Text>
 );
-
-export const darkRedText = () => (
-  <Text darkColor="blue-500">Hello, I'm some text</Text>
-);
