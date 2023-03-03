@@ -7,4 +7,18 @@ export default {
   },
 };
 
-export const text = () => <Text>Hello, I'm some text</Text>;
+export const xsText = () => <Text size="xs">Hello, I'm some text</Text>;
+export const baseText = () => <Text>Hello, I'm some text</Text>;
+export const xlText = () => <Text size="xl">Hello, I'm some text</Text>;
+export const fourXlText = () => <Text size="4xl">Hello, I'm some text</Text>;
+
+export const thinText = () => <Text weight="thin">Hello, I'm some text</Text>;
+export const boldText = () => <Text weight="bold">Hello, I'm some text</Text>;
+
+export const blue500Text = () => (
+  <Text color="blue-500">Hello, I'm some text</Text>
+);
+
+export const darkRedText = () => (
+  <Text darkColor="blue-500">Hello, I'm some text</Text>
+);
