@@ -631,7 +631,7 @@
         }
       }
     },
-    "typography": {
+    "fontSize": {
       "xs": {
         "value": {
           "lineHeight": "{lineHeight.4}",
