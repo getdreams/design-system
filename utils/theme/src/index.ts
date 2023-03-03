@@ -6,16 +6,6 @@ import { color as colors } from '~/tokens/colors';
 import { spacing } from '~/tokens/spacing';
 import { zIndex } from '~/tokens/z-index/index';
 
-const getFontSize = () => {
-  return Object.keys(typography).reduce((fontSizes, key) => {
-    fontSizes[key] = [
-      typography[key].fontSize,
-      { lineHeight: typography[key].lineHeight },
-    ];
-
-    return fontSizes;
-  }, {});
-};
 
 export const theme = {
   colors,
