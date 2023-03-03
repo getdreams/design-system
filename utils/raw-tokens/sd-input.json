@@ -479,7 +479,7 @@
       }
     }
   },
-  "typography": {
+  "fontSize": {
     "xs": {
       "value": {
         "lineHeight": "1rem",
