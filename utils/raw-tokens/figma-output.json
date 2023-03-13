@@ -615,7 +615,7 @@
         }
       }
     },
-    "fontSize": {
+    "text": {
       "xs": {
         "value": {
           "lineHeight": "{lineHeight.4}",
