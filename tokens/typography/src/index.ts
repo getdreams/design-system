@@ -1,13 +1,15 @@
-import { fontSize, fontWeight } from './tokens.json';
+import { text, fontWeight } from './tokens.json';
 
-const compoundFontSizes = () => {
-  return Object.keys(fontSize).reduce((compoundFontSizes, key) => {
-    compoundFontSizes[key] = [
-      fontSize[key].fontSize,
-      { lineHeight: fontSize[key].lineHeight },
+const textTokens = () => {
+  return Object.keys(text).reduce((textTokens, key) => {
+    const textToken = text[key];
+
+    textTokens[key] = [
+      textToken.fontSize,
+      { lineHeight: textToken.lineHeight },
     ];
 
-    return compoundFontSizes;
+    return textTokens;
   }, {});
 };
 
@@ -15,7 +17,7 @@ const typography = {
   fontFamily: {
     code: ['Menlo', 'ui-monospace', 'SFMono-Regular', 'Monaco', 'monospace'],
   },
-  fontSize: compoundFontSizes(),
+  fontSize: textTokens(),
   fontWeight,
 };
 

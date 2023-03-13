@@ -82,7 +82,7 @@
         "type": "spacing"
       }
     },
-    "box-shadow": {
+    "boxShadow": {
       "default": {
         "value": [
           {
@@ -97,7 +97,7 @@
         "type": "boxShadow"
       }
     },
-    "border-radius": {
+    "borderRadius": {
       "sm": {
         "value": "0.125rem",
         "type": "borderRadius"
@@ -427,7 +427,7 @@
       "value": "Lab Grotesque Dreams",
       "type": "fontFamilies"
     },
-    "font-size": {
+    "fontSize": {
       "xs": {
         "value": "0.75rem",
         "type": "fontSizes"
@@ -482,14 +482,6 @@
       }
     },
     "fontWeight": {
-      "thin": {
-        "value": "100",
-        "type": "fontWeights"
-      },
-      "extralight": {
-        "value": "200",
-        "type": "fontWeights"
-      },
       "light": {
         "value": "300",
         "type": "fontWeights"
@@ -502,16 +494,8 @@
         "value": "500",
         "type": "fontWeights"
       },
-      "semibold": {
-        "value": "600",
-        "type": "fontWeights"
-      },
       "bold": {
         "value": "700",
-        "type": "fontWeights"
-      },
-      "extrabold": {
-        "value": "800",
         "type": "fontWeights"
       },
       "black": {
@@ -631,95 +615,95 @@
         }
       }
     },
-    "fontSize": {
+    "text": {
       "xs": {
         "value": {
           "lineHeight": "{lineHeight.4}",
-          "fontSize": "{font-size.xs}"
+          "fontSize": "{fontSize.xs}"
         },
         "type": "typography"
       },
       "sm": {
         "value": {
           "lineHeight": "{lineHeight.5}",
-          "fontSize": "{font-size.sm}"
+          "fontSize": "{fontSize.sm}"
         },
         "type": "typography"
       },
       "base": {
         "value": {
           "lineHeight": "{lineHeight.6}",
-          "fontSize": "{font-size.base}"
+          "fontSize": "{fontSize.base}"
         },
         "type": "typography"
       },
       "lg": {
         "value": {
           "lineHeight": "{lineHeight.7}",
-          "fontSize": "{font-size.lg}"
+          "fontSize": "{fontSize.lg}"
         },
         "type": "typography"
       },
       "xl": {
         "value": {
           "lineHeight": "{lineHeight.7}",
-          "fontSize": "{font-size.xl}"
+          "fontSize": "{fontSize.xl}"
         },
         "type": "typography"
       },
       "2xl": {
         "value": {
           "lineHeight": "{lineHeight.8}",
-          "fontSize": "{font-size.2xl}"
+          "fontSize": "{fontSize.2xl}"
         },
         "type": "typography"
       },
       "3xl": {
         "value": {
           "lineHeight": "{lineHeight.9}",
-          "fontSize": "{font-size.3xl}"
+          "fontSize": "{fontSize.3xl}"
         },
         "type": "typography"
       },
       "4xl": {
         "value": {
           "lineHeight": "{lineHeight.10}",
-          "fontSize": "{font-size.4xl}"
+          "fontSize": "{fontSize.4xl}"
         },
         "type": "typography"
       },
       "5xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
-          "fontSize": "{font-size.5xl}"
+          "fontSize": "{fontSize.5xl}"
         },
         "type": "typography"
       },
       "6xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
-          "fontSize": "{font-size.6xl}"
+          "fontSize": "{fontSize.6xl}"
         },
         "type": "typography"
       },
       "7xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
-          "fontSize": "{font-size.7xl}"
+          "fontSize": "{fontSize.7xl}"
         },
         "type": "typography"
       },
       "8xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
-          "fontSize": "{font-size.8xl}"
+          "fontSize": "{fontSize.8xl}"
         },
         "type": "typography"
       },
       "9xl": {
         "value": {
           "lineHeight": "{lineHeight.none}",
-          "fontSize": "{font-size.9xl}"
+          "fontSize": "{fontSize.9xl}"
         },
         "type": "typography"
       }
@@ -740,10 +724,10 @@
         }
       }
     },
-    "border-radius": {
+    "borderRadius": {
       "button": {
         "primary": {
-          "value": "{border-radius.full}",
+          "value": "{borderRadius.full}",
           "type": "borderRadius"
         }
       }
@@ -800,10 +784,10 @@
         }
       }
     },
-    "box-shadow": {
+    "boxShadow": {
       "button": {
         "primary": {
-          "value": "{box-shadow.default}",
+          "value": "{boxShadow.default}",
           "type": "boxShadow"
         }
       }
