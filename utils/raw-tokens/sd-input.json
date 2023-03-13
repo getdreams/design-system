@@ -479,95 +479,95 @@
       }
     }
   },
-  "fontSize": {
+  "text": {
     "xs": {
       "value": {
         "lineHeight": "1rem",
-        "fontSize": "[object Object]"
+        "fontSize": "0.75rem"
       },
       "type": "typography"
     },
     "sm": {
       "value": {
         "lineHeight": "1.25rem",
-        "fontSize": "[object Object]"
+        "fontSize": "0.875rem"
       },
       "type": "typography"
     },
     "base": {
       "value": {
         "lineHeight": "1.5rem",
-        "fontSize": "[object Object]"
+        "fontSize": "1rem"
       },
       "type": "typography"
     },
     "lg": {
       "value": {
         "lineHeight": "1.75rem",
-        "fontSize": "[object Object]"
+        "fontSize": "1.125rem"
       },
       "type": "typography"
     },
     "xl": {
       "value": {
         "lineHeight": "1.75rem",
-        "fontSize": "[object Object]"
+        "fontSize": "1.25rem"
       },
       "type": "typography"
     },
     "2xl": {
       "value": {
         "lineHeight": "2rem",
-        "fontSize": "[object Object]"
+        "fontSize": "1.5rem"
       },
       "type": "typography"
     },
     "3xl": {
       "value": {
         "lineHeight": "2.25rem",
-        "fontSize": "[object Object]"
+        "fontSize": "1.875rem"
       },
       "type": "typography"
     },
     "4xl": {
       "value": {
         "lineHeight": "2.5rem",
-        "fontSize": "[object Object]"
+        "fontSize": "2.25rem"
       },
       "type": "typography"
     },
     "5xl": {
       "value": {
         "lineHeight": 1,
-        "fontSize": "[object Object]"
+        "fontSize": "3rem"
       },
       "type": "typography"
     },
     "6xl": {
       "value": {
         "lineHeight": 1,
-        "fontSize": "[object Object]"
+        "fontSize": "3.75rem"
       },
       "type": "typography"
     },
     "7xl": {
       "value": {
         "lineHeight": 1,
-        "fontSize": "[object Object]"
+        "fontSize": "4.5rem"
       },
       "type": "typography"
     },
     "8xl": {
       "value": {
         "lineHeight": 1,
-        "fontSize": "[object Object]"
+        "fontSize": "6rem"
       },
       "type": "typography"
     },
     "9xl": {
       "value": {
         "lineHeight": 1,
-        "fontSize": "[object Object]"
+        "fontSize": "8rem"
       },
       "type": "typography"
     }
@@ -657,6 +657,60 @@
   "Lab Grotesque Dreams": {
     "value": "Lab Grotesque Dreams",
     "type": "fontFamilies"
+  },
+  "fontSize": {
+    "xs": {
+      "value": "0.75rem",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "0.875rem",
+      "type": "fontSizes"
+    },
+    "base": {
+      "value": "1rem",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "1.125rem",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "1.25rem",
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": "1.5rem",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "1.875rem",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "2.25rem",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "3rem",
+      "type": "fontSizes"
+    },
+    "6xl": {
+      "value": "3.75rem",
+      "type": "fontSizes"
+    },
+    "7xl": {
+      "value": "4.5rem",
+      "type": "fontSizes"
+    },
+    "8xl": {
+      "value": "6rem",
+      "type": "fontSizes"
+    },
+    "9xl": {
+      "value": "8rem",
+      "type": "fontSizes"
+    }
   },
   "fontWeight": {
     "light": {
