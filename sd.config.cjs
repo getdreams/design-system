@@ -35,8 +35,7 @@ module.exports = {
           format: 'json/nested',
           filter: function (token) {
             return (
-              (token.path[0] === 'typography') |
-              (token.path[0] === 'fontWeight')
+              (token.path[0] === 'text') | (token.path[0] === 'fontWeight')
             );
           },
           options: {
