@@ -7,44 +7,6 @@ export type TextProps = {
   */
   as?: 'p' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'span' | 'div';
   /**
-  Size of the text
-  */
-  size?:
-    | 'xs'
-    | 'sm'
-    | 'base'
-    | 'lg'
-    | 'xl'
-    | '2xl'
-    | '3xl'
-    | '4xl'
-    | '5xl'
-    | '6xl'
-    | '7xl'
-    | '8xl'
-    | '9xl';
-  /**
-  Weight of the text
-  */
-  weight?:
-    | 'thin'
-    | 'extralight'
-    | 'light'
-    | 'normal'
-    | 'medium'
-    | 'semibold'
-    | 'bold'
-    | 'extrabold'
-    | 'black';
-  /**
-  Color of the text
-  */
-  color?: string;
-  /**
-  Color of the text when using a dark theme
-  */
-  darkColor?: string;
-  /**
   ClassName that will be applied to the html tag
   */
   className?: string;
@@ -57,21 +19,13 @@ export type TextProps = {
 /**
 A simple Text component
 */
-export function Text({
-  as = 'p',
-  size = 'base',
-  weight = 'normal',
-  color = 'black',
-  darkColor = 'white',
-  className,
-  children,
-}: TextProps) {
+export function Text({ as = 'p', className, children }: TextProps) {
   const Tag = as;
   const classes = classNames(
-    `text-${size}`,
-    `font-${weight}`,
-    `text-${color}`,
-    `dark:text-${darkColor}`,
+    `text-base`,
+    `font-normal`,
+    `text-black`,
+    `dark:text-white`,
     className
   );
 
