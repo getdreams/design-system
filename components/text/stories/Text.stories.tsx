@@ -7,14 +7,28 @@ export default {
   },
 };
 
-export const xsText = () => <Text size="xs">Hello, I'm some text</Text>;
-export const baseText = () => <Text>Hello, I'm some text</Text>;
-export const xlText = () => <Text size="xl">Hello, I'm some text</Text>;
-export const fourXlText = () => <Text size="4xl">Hello, I'm some text</Text>;
+export const xsText = () => (
+  <Text className="text-xs">Hello, I'm some text</Text>
+);
 
-export const thinText = () => <Text weight="thin">Hello, I'm some text</Text>;
-export const boldText = () => <Text weight="bold">Hello, I'm some text</Text>;
+export const baseText = () => <Text>Hello, I'm some text</Text>;
+
+export const xlText = () => (
+  <Text className="text-xl">Hello, I'm some text</Text>
+);
+
+export const fourXlText = () => (
+  <Text className="text-4xl">Hello, I'm some text</Text>
+);
+
+export const thinText = () => (
+  <Text className="font-thin">Hello, I'm some text</Text>
+);
+
+export const boldText = () => (
+  <Text className="font-bold">Hello, I'm some text</Text>
+);
 
 export const blue500Text = () => (
-  <Text color="blue-500">Hello, I'm some text</Text>
+  <Text className="text-blue-500">Hello, I'm some text</Text>
 );
